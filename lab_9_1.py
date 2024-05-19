@@ -36,4 +36,4 @@ if __name__ == '__main__':
     for entry in filtered_logs:
         print(entry)
 
-    # TEST:    type regexp.log | python lab_9_1.py
+    # TEST lab_9.1:    type regexp.log | python lab_9_1.py

@@ -22,3 +22,8 @@ if __name__ == '__main__':
     print("-----------------filtered logs-----------------------")
     for entry in filtered_logs:
         print(entry)
+
+    # TEST lab_9.2:    mypy lab_9_2.py ssh_log_entry_type_mypy.py ssh_log_journal_type_mypy.py
+    # TEST_working:    type regexp.log | python lab_9_2.py
+
+

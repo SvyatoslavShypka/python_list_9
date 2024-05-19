@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 import re
 
+
 class SSHLogEntry(ABC):
     def __init__(self, timestamp: str, message: str, pid: int, hostname: str, ip_address: Optional[str] = None):
         self.timestamp = timestamp
