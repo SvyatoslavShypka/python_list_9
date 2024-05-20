@@ -3,6 +3,7 @@ import re
 
 
 def get_ipv4s_from_log(slownik):
+
     lista_adresow = []
     ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
     matches = re.findall(ip_pattern, slownik.get("message"))
